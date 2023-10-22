@@ -1,0 +1,25 @@
+{
+  "teacher": {
+    "id": "123",
+    "name": "Nina",
+    "surname": "Da",
+    "email": "mail@mail.ru",
+    "password": "password",
+    "students": [
+      {
+        "id": "333",
+        "name": "Oleg",
+        "surname": "Mongol",
+        "age": 12,
+        "lessons": [
+          {
+            "id": "33",
+            "words": "слово голос сосед",
+            "correct_percent": 50,
+            "duration": "00:01:29"
+          }
+        ]
+      }
+    ]
+  }
+}

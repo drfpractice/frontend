@@ -1,0 +1,1 @@
+export const selectIsWriting = (state) => state.app.isWriting

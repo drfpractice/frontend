@@ -1,9 +1,14 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Main, Writing } from './pages';
 
 export const App = () => {
   return (
-    <>
-      <h2>Hello</h2>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Main />} />
+        <Route path='/writing' element={<Writing />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
