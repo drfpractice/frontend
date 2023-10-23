@@ -60,6 +60,7 @@ const FormContainer = ({ className }) => {
 
 
         <input
+          className="input"
           type="text"
           placeholder="Текст для изучения"
           onChange={({ target }) => {
@@ -83,9 +84,21 @@ export const Form = styled(FormContainer)`
   padding: 10px;
   display: flex;
   flex-direction: column;
+  width: 800px;
 
   & .select {
     font-size: 20px;
     margin-bottom: 20px;
+  }
+
+  & .button {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  & .input {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
   }
 `;

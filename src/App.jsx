@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Main, Writing } from './pages';
+import { Main, Stats, Writing, Student } from './pages';
 
 export const App = () => {
   return (
@@ -7,6 +7,8 @@ export const App = () => {
       <Routes>
         <Route path='/' element={<Main />} />
         <Route path='/writing' element={<Writing />} />
+        <Route path='/stats' element={<Stats />} />
+        <Route path='/student/:id' element={<Student />} />
       </Routes>
     </BrowserRouter>
   )
